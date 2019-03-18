@@ -14,7 +14,7 @@
 def speak_to_grandma(require_relative = "I LOVE YOU GRANDMA!")
   if require_relative == "Hi Nana, how are you?"
     puts "HUH?! SPEAK UP, SONNY!"
-  elsif require_relative == "Hi!"
+  elsif require_relative = "Hi!"
     puts "HUH?! SPEAK UP, SONNY!"
   elsif require_relative == "WHAT DID YOU EAT TODAY?"
     puts "NO, NOT SINCE 1938!"
